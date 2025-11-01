@@ -15,4 +15,5 @@
     //Generate a random colour (hexadecimal)
     var randomColour = "#" + Math.floor(Math.random()*16777215).toString(16);
 
-    //Set the button's
+    //Set the button's background colour to the random colour
+    button.style.backgroundColor = randomColor
