@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myDIV {
+  width: 400ppx;
+  height: 300ppx;
+  background-color: lightblue;
+  color: white;
+}
+</style>
+</head>
+<h1>Change the background-colour with Javascript</h1>
+
+<p>Click the "Try it" button to set the background-colour property of the DIV element to "lightblue":</p>
+
+<button onclick="myFunction()">Go ahead!</button>
+
+<div id="myDIV">
+  <h1>Hello</h1>
+</div>
+
+<script>
+function myFunction() {
+  document.getElementById("myDIV").style.backgroundColor = "lightblue";
+}
+</script>
+
+</body>
+</html>
