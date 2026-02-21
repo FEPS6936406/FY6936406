@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Change Button Colour</title>
+  <title>Alert input text</title>
 </head>
 <body>
-  <button id= "colourButton">Click me to change colour</button>
+  <input type="text" id="Textinput" placeholder="Enter text">
+  <button id="alertButton">Show Alert</button>
 
   <script>
-  //Get a reference to the button element
-  var button = document.getElementByld("colorButton");
+  //Get a reference to the input field button
+  var input = document.getElementByld("colorButton");
+  var button = document.getElementById("alertButton");
 
-  //Function to change the button colour
-  function changeColour() {
-    //Generate a random colour (hexadecimal)
-    var randomColour = "#" + Math.floor(Math.random()*16777215).toString(16);
+   //Function to change the button colour
+    function showAlert() {
+        var input
 
     //Set the button's background colour to the random colour
     button.style.backgroundColor = randomColor;
