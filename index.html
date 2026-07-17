@@ -73,7 +73,7 @@ img src {
   </tr>
 </table>
 
-  <section id = Introduction>
+  <section id = "Introduction">
   <h3 style="font-family: calibri; font-size: 25px;" id="Introduction">Introduction</h3>
   <p class="ex1">
   <pre style="font-family: calibri; font-size: 23px;"
@@ -83,11 +83,12 @@ img src {
     the sport and have been implemented since. However, a few innovations have been banned due
     to safety, the sole dominance of one team or cost effectiveness. 
   </pre>
+  </section>
   
   
 
 
-  
+  <section id = "Abstract">
   <h3 style="font-family: calibri; font-size: 23px;" id="Abstract">Abstract</h3>
   <pre style="font-family: calibri; font-size: 23px;"
   <pre>
@@ -95,6 +96,7 @@ img src {
     helped teams to dominate and why they were banned as a result. We are going to be 
     covering Ground Effect, Active Suspension, Double Diffuser and Dual-axis Steering (DAS).
   </pre>
+  </section>
   <hr>
 
 
@@ -103,7 +105,7 @@ img src {
   &nbsp;
   &nbsp;
   &nbsp;
-  <section id = Lotus 79>
+  <section id = "Lotus 79">
   <h1 id="Lotus 79"><u>Lotus 79: Ground Effect (1978)</u></h1>
     <p>
     F1 cars of the 1970s and early 1980s had distinctive aerodynamics and <br>innovations. One car that stood above the rest of the competition was the <br>Lotus 79, which featured this technology known as ground effect. While its <br>predecessor, the Lotus 78 was the first car to feature this technology, <br>the Lotus 79 proved to be more successful, propelling Mario Andretti to the <br>1978 world championship.
@@ -118,7 +120,7 @@ img src {
     <hr>
   </section>
       
-  <section id = Williams FW14B>
+  <section id = "Williams FW14B>
   &nbsp;
   &nbsp;
   <h1><u>Williams FW14B: Active Suspension (1992)</u></h1>
@@ -273,10 +275,13 @@ img src {
   // Function to calculate and display total word count from selected sections
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
-    const IntroductionCount = displayWordCount("");
-    const AnalysisCount = displayWordCount("Analysis_InText");
+    const IntroductionCount = displayWordCount("Introduction");
+    const Section1Count = displayWordCount("Lotus 79");
+    const Section2Count = displayWordCount("Williams FW14B");
+    const Section3Count = displayWordCount ("Brawn GP");
+    const Section4Count = displayWordCount("Mercedes W11");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + AnalysisCount;
+    const totalWordCount = Introduction + Lotus 79 + Williams FW14B + Brawn GP + Mercedes W11;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
