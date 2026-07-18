@@ -76,8 +76,7 @@ img src {
   <section id = "Introduction">
   <h3 style="font-family: calibri; font-size: 25px;" id="Introduction">Introduction</h3>
   <p class="ex1">
-  <pre style="font-family: calibri; font-size: 23px;"
-  <pre>
+  <pre  style="font-family: calibri; font-size: 23px;" id = "Introduction">Introductiontext></pre>
     For many years, innovation has been the foundation to Formula One motor racing. Over 
     the past few decades, Formula One has had innovations that had revolutionised and shaped
     the sport and have been implemented since. However, a few innovations have been banned due
@@ -88,9 +87,9 @@ img src {
   
 
 
-  <section id = "Abstract">
+  
   <h3 style="font-family: calibri; font-size: 23px;" id="Abstract">Abstract</h3>
-  <pre style="font-family: calibri; font-size: 23px;"
+  <pre style="font-family: calibri; font-size: 23px;" id = "Introduction">Introduction></pre>
   <pre>
     This presentation will present F1’s ground-breaking innovations and how they
     helped teams to dominate and why they were banned as a result. We are going to be 
@@ -106,8 +105,8 @@ img src {
   &nbsp;
   &nbsp;
   <div class = myDiv>
-  <section id = "Lotus 79">
   <h1 id="Lotus 79"><u>Lotus 79: Ground Effect (1978)</u></h1>
+  <p id="Lotus79text">
     <p>
     F1 cars of the 1970s and early 1980s had distinctive aerodynamics and <br>innovations. One car that stood above the rest of the competition was the <br>Lotus 79, which featured this technology known as ground effect. While its <br>predecessor, the Lotus 78 was the first car to feature this technology, <br>the Lotus 79 proved to be more successful, propelling Mario Andretti to the <br>1978 world championship.
     </p>
@@ -117,7 +116,6 @@ img src {
     <p>
     This design proved to be extremely successful, with Mario Andretti clinching<br> the 1978 Championship. The FIA banned ground effect in 1983 after the fatal<br> crashes of Ronnie Patterson in 1978 and Gilles Villeneuve in 1982.
     </p>
-  </section>
   <img src="https://cdn-5.motorsport.com/images/mgl/0qXqGa86/s1200/lotus-78-overview-1.webp" width = "600" height ="350"; position: relative;  left: 30px;>
   </div>
   <hr>
@@ -125,19 +123,18 @@ img src {
   &nbsp;
   &nbsp;
   <div class = myDiv>    
-  <section id = "Williams FW14B">  
-  <h1><u>Williams FW14B: Active Suspension (1992)</u></h1>
+  <h1 id="Williams FW14B"><u>Williams FW14B: Active Suspension (1992)</u></h1>
+    <p id="Williams FW14B">
     <p>
     The FW14B, which is known as F1’s most technologically advanced cars, <br>which powered Nigel Mansell to the 1992 World Championship. Campbell, (2025, para 1)<br> stated that car had many innovations, such as traction control,<br> anti-lock brakes and a powerful V10 engine. However, its<br> groundbreaking active suspension was the main factor<br> for the car’s dominance.</p>
     </p>
     <p>
     The system used actuators instead of springs, programmed to adjust the <br>height of the car, to deliver understeer (when the car does not turn enough) <br>or oversteer (when the car’s rear end turns more than the front). This allows <br>the car to quickly accelerate and carry its speed through the corners. There <br>were also sensors that detected changes in speed, which prompted the system <br>to constantly adjust its ride height.
     </p>
+     <img src="https://motorsport.tech/wp-content/uploads/2021/12/0-FW14b-CUTAWAY-1086x1536.jpg" height="550" width="300">
     <p> While active suspension did provide unrivalled pace in races, it added<br> complexity and felt unnatural to drive during the development<br> of the car. Despite its championship level success in 1992<br> and later in 1993 on the FW15C, the system was banned in 1994, which <br>aimed to reduce the amount of driver assists, which would be catastrophic at <br>speeds of 200mph if the system fails.
-    </p>  
-  </section>  
-  <img src="https://motorsport.tech/wp-content/uploads/2021/12/0-FW14b-CUTAWAY-1086x1536.jpg" height="550" width="300">
-  <img src="https://github.com/FEPS6936406/FY6936406/blob/main/William%20FW14B%20active%20suspension.jpg?raw=true" height = "300" width = "500"; position: relative;  left: 30px>
+    </p>
+    <img src="https://github.com/FEPS6936406/FY6936406/blob/main/William%20FW14B%20active%20suspension.jpg?raw=true" height = "300" width = "500"; position: relative;  left: 30px>
   </div>
   <hr>
 
@@ -145,8 +142,8 @@ img src {
   &nbsp;
   &nbsp;
   <div class = myDiv>
-  <section id = "Brawn GP">
-  <h1><u>Brawn GP: Double Diffuser (2009)</u></h1>  
+  <h1 id = "Brawn GP"><u>Brawn GP: Double Diffuser (2009)</u></h1>
+    <p id="BrawnGPtext">
     <p>
     The 2009 Formula 1 season will be known for a shock performance of a<br> new financially struggling F1 team, known as Brawn GP, who went on to win <br>both the drivers’ championship with Jenson Button and the Constructors <br>Championship.
     </p>
@@ -162,8 +159,8 @@ img src {
   &nbsp;
   &nbsp;
   <div class = myDiv>
-  <section id = "Mercedes W11">
-  <h1><u>Mercedes W11: Dual-axis steering (DAS) (2020)</u></h1>
+  <h1 id = "Mercedes W11"><u>Mercedes W11: Dual-axis steering (DAS) (2020)</u></h1>
+    <p id="MercedesW11text">
     <p>
     Mercedes was a dominant force in F1 and had stood above the competition <br>since the introduction of the turbo-hybrid engines since 2014 <br>and have dominated for many years.<br><br> While the main factor of Mercedes’ dominance was their powerful yet <br>reliable engines, according to Scarborough, C (2021), DAS was a <br>feature that significantly helped its dominance. Introduced in 2020, <br>DAS was a key feature which propelled Lewis Hamilton to his record <br>equalling 7th world championship, with Michael Schumacher.
     </p>
@@ -286,12 +283,16 @@ img src {
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Introduction");
-    const Section1Count = displayWordCount("Lotus 79");
-    const Section2Count = displayWordCount("Williams FW14B");
-    const Section3Count = displayWordCount ("Brawn GP");
-    const Section4Count = displayWordCount("Mercedes W11");
+    const Heading1Count = displayWordCount("Lotus 79");
+    const Section1Count = displayWordCount("Lotus79text);
+    const Heading2Count = displayWordCount("Williams FW14B");
+    const Section2Count = displayWordCount("WilliamsFW14Btext);
+    const Heading3Count = displayWordCount("Brawn GP");
+    const Section3Count = displayWordCount("BrawnGPtext");
+    const Heading4Count = displayWordCount("Mercedes W11");
+    const Section4Count = displayWordCount("MercedesW11text");
     // Calculate the sum of all selected sections
-    const totalWordCount = Introduction + Section1Count + Section2Count + Section3Count + Section4Count;
+    const totalWordCount = Introduction + Heading1Count + Section1Count + Heading2Count + Section2Count + Heading3Count + Section3Count + Heading4Count + Section4Count;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
